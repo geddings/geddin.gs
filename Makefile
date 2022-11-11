@@ -1,4 +1,4 @@
-FLAGS = -f nginx/docker-compose.yml -f ddns/docker-compose.yml -f whoami/docker-compose.yml
+FLAGS = -f nginx/docker-compose.yml -f ddns/docker-compose.yml -f whoami/docker-compose.yml -f dashboard/docker-compose.yml
 
 up:
 	docker-compose ${FLAGS} up -d

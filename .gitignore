@@ -1,3 +1,5 @@
 nginx/data/
 
 ddns/config.json
+
+dashboard/data/
