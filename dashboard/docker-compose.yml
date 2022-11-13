@@ -8,6 +8,8 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - 5005:5005
+    environment:
+      - PASSWORD=${PASSWORD}
     restart: unless-stopped
 
 networks:
